@@ -1,0 +1,17 @@
+#content{
+  padding: 10px;
+  border: 2px solid red;
+}
+span {
+  padding: 10px 20px;
+  margin: 10px;
+  cursor: pointer;
+}
+.active {
+  border: 2px solid black;
+}
+@media(max-width: 768px) {
+  span{
+    padding: 10px 15px;
+  }
+}
